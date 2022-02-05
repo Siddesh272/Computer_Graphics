@@ -1,5 +1,10 @@
 # Computer_Graphics
-## To Draw a SOLID and DOTTED line in TURBO C using Digital Differential Anakyser algorithm (DDA).
+## To Draw a SOLID and DOTTED line in TURBO C using Digital Differential Analyser algorithm (DDA).
+### In computer graphics, a digital differential analyzer (DDA) is hardware or software used for interpolation of variables over an interval between start and end point. DDAs are used for rasterization of lines, triangles and polygons. They can be extended to non linear functions, such as perspective correct texture mapping, quadratic curves, and traversing voxels.
+
+In its simplest implementation for linear cases such as lines, the DDA algorithm interpolates values in interval by computing for each xi the equations xi = xi−1 + 1, yi = yi−1 + m, where m is the slope of the line. This slope can be expressed in DDA as follows:
+
+{\displaystyle m={\frac {y_{\rm {end}}-y_{\rm {start}}}{x_{\rm {end}}-x_{\rm {start}}}}}{\displaystyle m={\frac {y_{\rm {end}}-y_{\rm {start}}}{x_{\rm {end}}-x_{\rm {start}}}}}
 # A Quick View Of Solid Line
 ![Screenshot (89)](https://user-images.githubusercontent.com/90123105/152647266-756f4c9e-535f-4fa7-9916-79065986f134.png)
 # A Quick View Of Dotted Line
